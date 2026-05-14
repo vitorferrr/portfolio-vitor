@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
@@ -35,9 +36,14 @@ export default function Navbar() {
       <div className={`container ${styles.inner}`}>
         {/* Logo */}
         <Link href="/" className={styles.logo}>
-          <span className={styles.logoAccent}>V</span>
-          <span>ITOR</span>
-          <span className={styles.logoDot}>.</span>
+            <Image
+                src="/logo.png"
+                alt="Vitor Ferreira Logo"
+                width={120}
+                height={40}
+                priority
+                style={{ objectFit: 'contain' }}
+            />
         </Link>
 
         {/* Desktop links */}
