@@ -14,3 +14,6 @@ Currículo e portfólio acadêmico/profissional desenvolvido com Next.js, React,
 - `/academica` — Experiência Acadêmica
 - `/profissional` — Experiência Profissional
 - `/projetos` — Projetos Desenvolvidos
+
+## Deploy
+- Vercel (https://portfolio-vitor-iota.vercel.app)
