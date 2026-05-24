@@ -4,23 +4,23 @@ const experiences = [
   {
     period: 'Mar 2026 — Atual',
     role: 'Desenvolvedor Salesforce (MedConnect)',
-    company: 'Projeto Independente',
+    company: 'Projeto Capgemini / Porto Digital',
     program: 'Desenvolvimento em Nuvem',
     location: 'Recife, PE',
     description:
-      'Configuração de objetos personalizados (Medical Event, Speaker), implementação de lógica via Apex e arquitetura de plataforma Salesforce para gestão clínica.',
+      'Configuração de objetos personalizados (Similar a POO em Java), implementação de lógica via Apex e arquitetura de plataforma Salesforce para gestão clínica.',
     tags: ['Salesforce', 'Apex', 'CRM', 'Cloud'],
     highlight: true,
   },
   {
     period: 'Ago 2025 — Dez 2025',
     role: 'Desenvolvedor Full-Stack (Beyond Co)',
-    company: 'Porto Digital',
-    program: 'Beyond Co / Squad 17',
+    company: 'Beyond Co / Porto Digital',
+    program: 'Squad 17',
     location: 'Recife, PE',
     description:
-      'Desenvolvimento de aplicações de impacto social (Evoluo e ConnectTEA) para suporte à comunicação entre famílias e profissionais, premiado com Student Highlight.',
-    tags: ['React', 'TypeScript', 'UI/UX', 'Supabase', 'Aluno Destaque — RiseUp (Beyond Co)'],
+      'Desenvolvimento de aplicações de impacto social (Evoluo e ConnectTEA) para suporte à comunicação entre famílias e profissionais, premiado como Aluno Destaque — RiseUp (Beyond Co).',
+    tags: ['React', 'TypeScript', 'UI/UX', 'Supabase'],
     highlight: true,
   },
   {
@@ -32,7 +32,7 @@ const experiences = [
     description:
       'Participação no programa de residência tecnológica, focando em metodologias ágeis (Scrum) e entrega de software com foco em acessibilidade e inovação.',
     tags: ['Figma', 'UI/UX', 'Design Thinking', 'Scrum'],
-    highlight: false,
+    highlight: true,
   },
 ];
 

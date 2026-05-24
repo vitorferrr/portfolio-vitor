@@ -13,7 +13,7 @@ const techs = [
     items: [
       { name: 'CSS Modules', desc: 'Estilos com escopo local por componente, sem conflitos.' },
       { name: 'CSS Variables', desc: 'Sistema de design tokens para tema dark/light consistente.' },
-      { name: 'Google Fonts', desc: 'Bebas Neue (display) + DM Sans (corpo) para identidade tipográfica forte.' },
+      { name: 'Google Fonts', desc: 'Bebas Neue (display) + DM Sans (corpo) para identidade tipográfica.' },
     ],
   },
   {
@@ -67,7 +67,7 @@ export default function Sobre() {
             <div className={styles.skillGroup}>
               <span className="tag">Front-end</span>
               <div className={styles.skillTags}>
-                {['HTML5', 'CSS3', 'JavaScript'].map(s => (
+                {['React', 'CSS3', 'Next.js'].map(s => (
                   <span key={s} className={styles.skillTag}>{s}</span>
                 ))}
               </div>
@@ -75,7 +75,7 @@ export default function Sobre() {
             <div className={styles.skillGroup}>
               <span className="tag">Back-end</span>
               <div className={styles.skillTags}>
-                {['Java', 'Python'].map(s => (
+                {['Java', 'Springboot'].map(s => (
                   <span key={s} className={styles.skillTag}>{s}</span>
                 ))}
               </div>

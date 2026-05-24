@@ -6,7 +6,6 @@
   overflow: hidden;
 }
 
-/* Grid de fundo */
 .grid {
   position: absolute;
   inset: 0;
@@ -17,7 +16,6 @@
   mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
 }
 
-/* Orb */
 .orb {
   position: absolute;
   width: 600px;
@@ -95,7 +93,6 @@
 }
 .chip:hover { border-color: var(--accent); color: var(--accent); }
 
-/* CTAs */
 .ctas {
   display: flex;
   align-items: center;
@@ -129,4 +126,29 @@
 
 @media (max-width: 768px) {
   .orb { width: 300px; height: 300px; right: -80px; }
+}
+
+/* Responsivo */
+@media (max-width: 640px) {
+  .content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .ctas {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ctaPrimary {
+    width: 100%;
+    text-align: center;
+  }
+
+  .orb {
+    width: 250px;
+    height: 250px;
+    right: -100px;
+    opacity: 0.6;
+  }
 }

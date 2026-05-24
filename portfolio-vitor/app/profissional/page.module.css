@@ -114,7 +114,6 @@
   background: var(--bg);
 }
 
-/* CTA */
 .cta {
   max-width: 760px;
   margin-top: 1rem;
@@ -139,3 +138,23 @@
   transition: opacity var(--transition), transform var(--transition);
 }
 .ctaBtn:hover { opacity: 0.85; transform: translateY(-2px); }
+
+/* Responsivo Profissional */
+@media (max-width: 640px) {
+  .item {
+    grid-template-columns: 20px 1fr;
+    gap: 0.75rem;
+  }
+
+  .cardTop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .role { font-size: 1.4rem; }
+
+  .ctaBtn {
+    width: 100%;
+    text-align: center;
+  }
+}

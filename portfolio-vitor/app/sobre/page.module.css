@@ -84,3 +84,14 @@
   line-height: 1.6;
   max-width: none;
 }
+
+/* Responsivo Sobre */
+@media (max-width: 640px) {
+  .techList {
+    grid-template-columns: 1fr;
+  }
+
+  .skillsGrid {
+    flex-direction: column;
+  }
+}

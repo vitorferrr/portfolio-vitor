@@ -1,6 +1,5 @@
 .header { margin-bottom: 3rem; }
 
-/* Section label */
 .section { margin-bottom: 4rem; }
 
 .sectionLabel {
@@ -17,7 +16,6 @@
   border-bottom: 1px solid var(--border);
 }
 
-/* Featured grid */
 .featuredGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -87,14 +85,12 @@
   gap: 0.4rem;
 }
 
-/* Repos grid */
 .reposGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1rem;
 }
 
-/* Skeleton loading */
 .loadingGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -118,7 +114,6 @@
   100% { background-position: -200% 0; }
 }
 
-/* Error */
 .errorBox {
   display: flex;
   flex-direction: column;
@@ -129,8 +124,22 @@
 .errorBox p { color: var(--text-primary); font-weight: 500; max-width: none; }
 .errorBox span { font-size: 0.8rem; color: var(--text-muted); max-width: none; }
 
-/* Responsive */
+
 @media (max-width: 640px) {
   .featuredCard { flex-direction: column; }
   .featuredEmoji { width: 40px; height: 40px; font-size: 1.5rem; }
+}
+/* Responsivo Projetos */
+@media (max-width: 640px) {
+  .featuredGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .reposGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .loadingGrid {
+    grid-template-columns: 1fr;
+  }
 }

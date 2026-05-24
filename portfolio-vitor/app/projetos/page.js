@@ -37,7 +37,7 @@ const featured = [
     title: 'Jogo de dados',
     description:
       'Aplicativo web com autenticação via Firebase, sistema de placar persistente e partidas em tempo real.',
-    tags: ['Firebase', 'Auth', 'JavaScript', 'Game'],
+    tags: ['React', 'Next.js', 'Game'],
     partners: 'Projeto Pessoal',
     emoji: '🎮',
     link: 'https://github.com/vitorferrr/Jogo-de-dados',
